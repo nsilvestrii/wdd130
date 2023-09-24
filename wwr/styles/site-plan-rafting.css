@@ -1,0 +1,58 @@
+@import url(https://fonts.google.com/specimen/Montserrat);
+
+:root { 
+  --primary-color: #114B5F; 
+  --secondary-color: #A06CD5;  
+  --accent1-color: #231123; 
+  --accent2-color: #F2F2F2;
+
+  --heading-font: 'Regular 400 Italic', montserrat; 
+  --paragraph-font: 'Regular 400 Italic', poppins; 
+
+  --nav-background-color: #114B5F; 
+  --nav-link-color: #F2F2F2;
+  --nav-hover-link-color: #A06CD5;
+  --nav-hover-background-color: #231123;
+} 
+
+body { 
+    font-family: var(--paragraph-font); 
+    max-width: 960px; 
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    font-family: var(--heading-font);
+    color: var(--accent1-color); 
+} 
+
+header { 
+    padding: 20px; 
+    background-color: var(--accent1-color);
+} 
+
+p { 
+    padding: 25px;
+} 
+
+nav { 
+    background-color: var(--nav-background-color); 
+    font-size: 1.2rem; 
+    display: flex; 
+} 
+
+nav a { 
+    display: block; 
+    color: var(--nav-link-color); 
+    text-decoration: none; 
+    padding: 1rem; 
+} 
+
+nav a:link, nav a:visited { 
+    color: var(--nav-link-color);
+} 
+
+nav a:hover { 
+    color: var(--nav-link-color); 
+    background-color: var(--nav-hover-background-color);
+}
