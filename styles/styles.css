@@ -21,6 +21,11 @@ nav a {
     color: #0c0101; 
 } 
 
+body { 
+    width: 900px; 
+    margin: 0 auto;
+}
+
 h1 { 
     color: #333;  
 } 

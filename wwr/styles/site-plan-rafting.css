@@ -1,4 +1,4 @@
-@import url(https://fonts.google.com/specimen/Montserrat);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Poppins:ital@1&display=swap');
 
 :root { 
   --primary-color: #114B5F; 
@@ -6,8 +6,8 @@
   --accent1-color: #231123; 
   --accent2-color: #F2F2F2;
 
-  --heading-font: 'Regular 400 Italic', montserrat; 
-  --paragraph-font: 'Regular 400 Italic', poppins; 
+  --heading-font: Montserrat; 
+  --paragraph-font: Poppins; 
 
   --nav-background-color: #114B5F; 
   --nav-link-color: #F2F2F2;
