@@ -9,30 +9,38 @@ header {
     max-width: 1000px;
 } 
 
+body { 
+    width: 1200px;
+    margin: 0 auto;
+}
+
 p { 
     padding: 25px;
 } 
 
-div {
+.hero {
     position: relative; 
 } 
 
 .hero img { 
     display: block; 
-    width: 100%; 
+    max-width: 100%; 
     height: auto;
 } 
 
 h1 { 
     position: absolute; 
+    top: 10px;
 } 
 
 article { 
     position: absolute;
+    top: 10px;
 } 
 
-img { 
+article img { 
     float: right;
+    width: 100px;
 }
 
 footer { 
