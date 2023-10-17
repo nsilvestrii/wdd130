@@ -40,7 +40,7 @@ nav a:hover {
 }
 
 body { 
-    width: 1200px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -60,12 +60,14 @@ p {
 
 h1 { 
     position: absolute; 
-    top: 10px;
+    top: 120px; 
+    color: white;
 } 
 
 article { 
     position: absolute;
-    top: 10px;
+    top: 150px;
+    color: white;
 } 
 
 article img { 
@@ -75,5 +77,5 @@ article img {
 
 footer { 
     display: flex; 
-    justify-content: space-around;    
+    justify-content: space-evenly; 
 }
