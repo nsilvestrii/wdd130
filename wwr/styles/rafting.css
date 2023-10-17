@@ -20,6 +20,7 @@ header {
     display: grid; 
     grid-template-columns: 300px 1fr;  
     border-bottom: 1px solid #231123; 
+    font-family: var(--heading-font);
 } 
 
 nav {
@@ -41,36 +42,44 @@ nav a:hover {
 
 body { 
     width: 900px;
-    margin: 0 auto;
+    margin: 0 auto; 
+    font-family: var(--paragraph-font);
 }
 
 p { 
-    padding: 25px;
+    padding: 5px;
 } 
 
 .hero {
+    margin: 10px auto;
     position: relative; 
 } 
 
 .hero img { 
-    display: block; 
     max-width: 100%; 
     height: auto; 
 } 
 
 h1 { 
+    display: block;
     position: absolute; 
-    top: 120px; 
-    color: white;
+    top: 15px;
+    color: white; 
+    left: 0; 
+    right: 0; 
+    text-align: center;
 } 
 
 article { 
     position: absolute;
-    top: 150px;
+    top: 75px;
+    padding: 10px;
     color: white;
+    background: rgba(69, 103, 170,0.6);
+    margin: 10px;
 } 
 
-article img { 
+.hero article img { 
     float: right;
     width: 100px;
 }
