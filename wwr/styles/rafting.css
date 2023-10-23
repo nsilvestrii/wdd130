@@ -157,11 +157,6 @@ label {
     padding-right: 1rem; 
 } 
 
-.alignment { 
-    margin: 1rem;
-    position: relative; 
-}
-
 textarea { 
     padding: 0.5rem; 
     font-size: 1rem; 
