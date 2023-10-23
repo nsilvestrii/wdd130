@@ -165,6 +165,12 @@ textarea {
     width: auto;
 } 
 
+input[type="checkbox"] { 
+    width: 22px; 
+    height: 22px; 
+    vertical-align: bottom;
+}
+
 button { 
     margin: 1rem; 
     background-color: navy; 
