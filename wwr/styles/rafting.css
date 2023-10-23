@@ -124,6 +124,10 @@ footer img {
     height: auto; 
 } 
 
+.information {
+    text-align: center;
+}
+
 form { 
     width: 650px; 
     margin: 0 auto; 
