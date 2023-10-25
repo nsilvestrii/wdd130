@@ -129,9 +129,9 @@ footer img {
 }
 
 form { 
-    width: 650px; 
+    width: 450px; 
     margin: 0 auto; 
-    padding: 1rem; 
+    padding: 0.5rem; 
     border: 1px solid rgba(0, 0, 0, 0.1); 
     border-radius: 0.5rem; 
     background-color: #eee; 
@@ -140,10 +140,10 @@ form {
 
 fieldset { 
     display: grid; 
-    grid-gap: 3rem; 
-    margin: 1rem; 
+    grid-gap: 1rem; 
+    margin: 0.5rem; 
     border: 1px solid rgba(0, 0, 0, 0.2); 
-    padding: 1rem;
+    padding: 0.5rem;
 } 
 
 legend { 
@@ -196,4 +196,43 @@ button:hover {
 
 .column2 { 
     grid-template-columns: 1fr 2fr;
+}
+
+h3 { 
+    text-align: left;
+    font-size: 1rem;
+}
+
+.home-grid { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+} 
+
+.column-3{ 
+    grid-column: 1/2;
+}
+
+.column-3 img { 
+    max-width: 300px; 
+    max-height: 200px;
+}
+
+.calltoaction{ 
+    grid-column: 2/3;
+    grid-row: 1;
+}
+
+.column-5 { 
+    grid-column: 3/3;
+}
+
+.column-5 img { 
+    max-width: 300px; 
+    max-height: 200px;
+}
+
+.survey { 
+    grid-column: 2/3; 
+    grid-row: 1/2;
 }
