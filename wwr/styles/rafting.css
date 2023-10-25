@@ -236,3 +236,20 @@ h3 {
     grid-column: 2/3; 
     grid-row: 1/2;
 }
+
+.detailed { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.detailed img { 
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.detailed p { 
+    text-align: left;
+    font-size: 1rem;
+
+} 
